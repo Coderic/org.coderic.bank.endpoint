@@ -10,7 +10,7 @@ updates:
   - package-ecosystem: "maven"
     directory: "/"
     schedule:
-      interval: "daily"
+      interval: "weekly"
     open-pull-requests-limit: 10
 
   # Maintain dependencies for GitHub Actions
@@ -18,4 +18,4 @@ updates:
     # Set the directory to / to check for workflow files stored in the default location of `.github/workflows`
     directory: "/"
     schedule:
-      interval: "daily"
+      interval: "weekly"
