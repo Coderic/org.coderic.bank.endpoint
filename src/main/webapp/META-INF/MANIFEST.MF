@@ -1,7 +1,7 @@
 Created-By: Apache Maven
 Main-Class: org.coderic.bank.endpoint.EndpointApplication
 Manifest-Version: 2.0
-Name: coderic-bank/endpoint
+Name: coderic-fintech/bank-endpoint
 Specification-Title: Endpoint for Bank Transactions
 Specification-Version: 1.0
 Specification-Vendor: Coderic
