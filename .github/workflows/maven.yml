@@ -1,8 +1,6 @@
-name: Testing
+name: Deploy Maven site to GitHub Pages
 
-on:
-  push:
-    branches: [ "master" ]
+on: workflow_dispatch
 concurrency:
   group: github-pages
   cancel-in-progress: false
