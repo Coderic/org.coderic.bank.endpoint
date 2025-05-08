@@ -3,6 +3,8 @@ name: Testing
 on:
   pull_request:
     branches: [ "master" ]
+permissions:
+  contents: read
 jobs:
   test:
     runs-on: ubuntu-latest
